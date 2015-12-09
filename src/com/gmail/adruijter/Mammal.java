@@ -1,6 +1,6 @@
 package com.gmail.adruijter;
 
-public class Zoogdier 
+public class Mammal 
 {
 	// Fields
 	private String nameSpecies;
@@ -56,15 +56,16 @@ public class Zoogdier
 	
 	// Constructor
 	// Default Constructor
-	
-	public Zoogdier()
+	/*
+	public Mammal()
 	{
 		this.amountOfLegs = 4;
 		this.sound = "OekieBoekieDada";
 		this.favoriteFood = "Banaan";
 	}
+	*/
 	
-	public Zoogdier(int amountOfLegs, String sound, String favoriteFood)
+	public Mammal(int amountOfLegs, String sound, String favoriteFood)
 	{
 		this.amountOfLegs = amountOfLegs;
 		this.sound = sound;
@@ -72,7 +73,7 @@ public class Zoogdier
 		
 	}
 	
-	public Zoogdier(int amountOfLegs, String sound, String favoriteFood, String nameSpecies, short lifeExpectancy )
+	public Mammal(int amountOfLegs, String sound, String favoriteFood, String nameSpecies, short lifeExpectancy )
 	{
 		this.amountOfLegs = amountOfLegs;
 		this.sound = sound;
@@ -82,12 +83,13 @@ public class Zoogdier
 	}
 	
 	// Methods
-	public void ShowProps()
+	public void showProps()
 	{
 		System.out.println(String.format("\r\n++++++++++++++++++++++++++++++++++++++++++++++++++++++\r\n" +
 										 "Ik ben een: %s \r\n" + 
 										 "Ik heb maar liefst %s benen \r\n" + 
 										 "Ik maak het volgende geluid: %s \r\n" + 
+				
 										 "Mijn lievelingsvoedsel is: %s \r\n" + 
 										 "De levenverwachting van een %s is: %s\r\n" +
 										 "++++++++++++++++++++++++++++++++++++++++++++++++++++++\r\n",

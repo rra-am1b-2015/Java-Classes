@@ -1,6 +1,6 @@
 package com.gmail.adruijter;
 
-public class Elephant extends Zoogdier 
+public class Elephant extends Mammal 
 {
 	//Fields
 	private float trunkLength;
@@ -29,7 +29,7 @@ public class Elephant extends Zoogdier
 	public void showProps()
 	{
 		System.out.printf("Mijn slurflengte is: %s (m)", Float.toString(this.trunkLength));
-		super.ShowProps();
+		super.showProps();
 	}
 	
 }
